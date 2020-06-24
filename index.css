@@ -1,3 +1,14 @@
 #first {
     display : flex;
 }
+footer {
+    text-align-last: center;
+}
+#big {
+    display: flexbox;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: baseline;
+    align-content: flex-end;
+}
