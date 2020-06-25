@@ -1,0 +1,46 @@
+/* BURGER KING FONTS */
+
+/* Google fonts helper
+https: //google-webfonts-helper.herokuapp.com/fonts/barlow?subsets=latin */
+
+/* barlow-regular - latin */
+@font-face {
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 400;
+  src: url('barlow-v4-latin-regular.eot');
+  /* IE9 Compat Modes */
+  src: local('Barlow Regular'), local('Barlow-Regular'),
+    url('barlow-v4-latin-regular.eot?#iefix') format('embedded-opentype'),
+    /* IE6-IE8 */ url('barlow-v4-latin-regular.woff2') format('woff2'),
+    /* Super Modern Browsers */ url('barlow-v4-latin-regular.woff') format('woff'),
+    /* Modern Browsers */ url('barlow-v4-latin-regular.ttf') format('truetype'),
+    /* Safari, Android, iOS */ url('barlow-v4-latin-regular.svg#Barlow') format('svg');
+  /* Legacy iOS */
+}
+
+/* barlow-700 - latin */
+@font-face {
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 700;
+  src: url('barlow-v4-latin-700.eot');
+  /* IE9 Compat Modes */
+  src: local('Barlow Bold'), local('Barlow-Bold'),
+    url('barlow-v4-latin-700.eot?#iefix') format('embedded-opentype'),
+    /* IE6-IE8 */ url('barlow-v4-latin-700.woff2') format('woff2'),
+    /* Super Modern Browsers */ url('barlow-v4-latin-700.woff') format('woff'),
+    /* Modern Browsers */ url('barlow-v4-latin-700.ttf') format('truetype'),
+    /* Safari, Android, iOS */ url('barlow-v4-latin-700.svg#Barlow') format('svg');
+  /* Legacy iOS */
+}
+
+@font-face {
+  font-family: 'block_pro';
+  letter-spacing: normal !important;
+  src: url('blockpropluscon-webfont.ttf') format('ttf'),
+    url('blockpropluscon-webfont.woff') format('woff');
+  font-weight: normal !important;
+  font-style: normal;
+  text-transform: uppercase;
+}
