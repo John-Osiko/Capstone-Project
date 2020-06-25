@@ -16,9 +16,9 @@ footer {
     width: 1350px;
     height: 500px;
     margin: 0px;
-    animation: myanimation 10s infinite;
+    animation: myanimation 100s infinite;
     transition: 5s;
-    background-image: url("images/UltimateCheesy.jpg");
+    background-image: url("../images/UltimateCheesy.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
     text-align: center;
@@ -26,19 +26,19 @@ footer {
 };
 @keyframes myanimation {
     25% {
-        background-image: url("images/UltimateCheesy.jpg");
+        background-image: url("../images/UltimateCheesy.jpg");
         color: darkgoldenrod;
     };
     50% {
-         background-image: url("images/happy_meal_2Col_1110x740_Desktop.jpg");
+         background-image: url("../images/happy_meal_2Col_1110x740_Desktop.jpg");
          color: darkgoldenrod;
     };
     75% {
-        background-image: url("images/sub-Reopen.png");
+        background-image: url("../images/sub-Reopen.png");
         color: darkgoldenrod;
     }
     100% {
-        background-image: url("images/Variety_2Col_1110x740_Desktop.jpg");
+        background-image: url("../images/Variety_2Col_1110x740_Desktop.jpg");
     }
 };
 #menu {
@@ -51,13 +51,14 @@ footer {
 
 }
 #menu>h6 {
-    background-image: url("images/Burger\ King.png" height="600px" width="1300px");
+    background-image: url("images/e7c19e1ba2c4eadab3bdebfa4fa9ce9419eb4747-920x920.webp" height="600px" width="1300px");
     background-repeat: no-repeat;
     margin: 0px;
     background-size: cover;
 }
 div > h1 {
     font-family: 'Pacifico', cursive;
+    font-size: 36px;
 
 }
 body{
@@ -66,3 +67,25 @@ body{
     width: 100%;
     font-family: 'Roboto Slab', serif;
 }
+.coffee {
+  display: grid;
+}
+.image{
+   display: flex;
+   flex-direction: row;
+}
+/* .description {
+    font-family: Work Sans;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 1.29;
+    letter-spacing: 0.1px;
+    text-align: left;
+    color: #070707;
+    padding: 10px 0px 10px 10px;
+    border-top: 1px solid #4a4a4a;
+  } */
+  .slumber-1 {
+      display: flex;
+      justify-content: space-around;
+  }
