@@ -85,7 +85,7 @@ body{
     padding: 10px 0px 10px 10px;
     border-top: 1px solid #4a4a4a;
   } */
-  .slumber-1 {
+  .slumber-1, .slumber-2, .slumber-3, .slumber-4 {
       display: flex;
       justify-content: space-around;
   }
