@@ -3,20 +3,15 @@ header {
 };
 footer {
     align-items: center;
-    font-family: 'Roboto Mono', monospace;
-;
+    font-family: 'Roboto Slab', serif;
 };
-#second {
+.second {
     float: left;
     line-height: 5vh;
     left: 1px;
+    display: inline-block;
 };
-#third {
-    float: right;
-    line-height: 10vh;
-    right: 1px;
-    align-items: baseline;
-};
+
 #sixth {
     width: 1350px;
     height: 500px;
@@ -32,15 +27,18 @@ footer {
 @keyframes myanimation {
     25% {
         background-image: url("images/UltimateCheesy.jpg");
-        color: coral;
+        color: darkgoldenrod;
     };
     50% {
-         background-image: url("images/Burger\ King.png");
+         background-image: url("images/happy_meal_2Col_1110x740_Desktop.jpg");
          color: darkgoldenrod;
     };
     75% {
         background-image: url("images/sub-Reopen.png");
         color: darkgoldenrod;
+    }
+    100% {
+        background-image: url("images/Variety_2Col_1110x740_Desktop.jpg");
     }
 };
 #menu {
@@ -58,13 +56,13 @@ footer {
     margin: 0px;
     background-size: cover;
 }
-#fifth {
+div > h1 {
     font-family: 'Pacifico', cursive;
+
 }
 body{
     margin: 0;
     padding: 0;
     width: 100%;
-    font-family: 'Roboto Mono', monospace;
-
+    font-family: 'Roboto Slab', serif;
 }
