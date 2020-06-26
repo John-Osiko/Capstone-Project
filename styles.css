@@ -1,0 +1,68 @@
+header {
+    display: inline-block;
+};
+footer {
+    align-items: center;
+    font-family: 'Roboto Slab', serif;
+};
+.second {
+    float: left;
+    line-height: 5vh;
+    left: 1px;
+    display: inline-block;
+};
+
+#sixth {
+    width: 1350px;
+    height: 500px;
+    margin: 0px;
+    animation: myanimation 10s infinite;
+    transition: 5s;
+    background-image: url("images/UltimateCheesy.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align: center;
+    font-size: 24px;
+};
+@keyframes myanimation {
+    25% {
+        background-image: url("images/UltimateCheesy.jpg");
+        color: darkgoldenrod;
+    };
+    50% {
+         background-image: url("images/happy_meal_2Col_1110x740_Desktop.jpg");
+         color: darkgoldenrod;
+    };
+    75% {
+        background-image: url("images/sub-Reopen.png");
+        color: darkgoldenrod;
+    }
+    100% {
+        background-image: url("images/Variety_2Col_1110x740_Desktop.jpg");
+    }
+};
+#menu {
+    font-size: 24px;
+}
+#big {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+#menu>h6 {
+    background-image: url("images/Burger\ King.png" height="600px" width="1300px");
+    background-repeat: no-repeat;
+    margin: 0px;
+    background-size: cover;
+}
+div > h1 {
+    font-family: 'Pacifico', cursive;
+
+}
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: 'Roboto Slab', serif;
+}
